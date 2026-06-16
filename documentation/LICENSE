@@ -1,0 +1,77 @@
+# LICENCIA DE USO Y PROPIEDAD DEL SOFTWARE
+
+## Sistema de Gestión de Biblioteca
+
+---
+
+## 📄 Información General
+
+Este proyecto corresponde a un sistema de gestión de biblioteca desarrollado como trabajo académico final para la asignatura **Programación Orientada a Objetos (POO)**.
+
+* **Autores:**
+  Juan José Sepúlveda Álvarez
+  Sebastián Sierra Vélez
+
+* **Programa académico:** Ingeniería Informática
+
+* **Institución:** Universidad Autónoma Latinoamericana (UNAULA)
+
+* **Semestre:** Tercer semestre
+
+---
+
+## ⚖️ Derechos de Autor
+
+Este software es propiedad intelectual exclusiva de sus autores.
+Todos los derechos están reservados.
+
+Queda estrictamente prohibido:
+
+* La venta total o parcial del software
+* La distribución sin autorización expresa de los autores
+* La modificación con fines comerciales
+* El uso del código en proyectos externos sin consentimiento
+
+---
+
+## 🚫 Restricciones de Uso
+
+Este proyecto **NO es software de código abierto**.
+
+Su uso está limitado únicamente a:
+
+* Fines académicos
+* Evaluación por parte de docentes
+* Demostraciones educativas
+
+Cualquier otro uso requiere autorización directa de los autores.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+El desarrollo del sistema se realizó utilizando las siguientes tecnologías:
+
+* **Frontend:**
+  HTML5
+  CSS3
+  JavaScript
+
+* **Backend:**
+  PHP
+
+* **Entorno de desarrollo:**
+  XAMPP
+
+* **Recursos adicionales:**
+  CDNs (Content Delivery Networks) para librerías externas
+
+---
+
+## 📌 Declaración Final
+
+Este trabajo fue desarrollado con fines educativos como parte del proceso de formación académica en Ingeniería Informática. Representa la aplicación práctica de los conceptos adquiridos en la asignatura de Programación Orientada a Objetos.
+
+---
+
+© 2026 - Todos los derechos reservados

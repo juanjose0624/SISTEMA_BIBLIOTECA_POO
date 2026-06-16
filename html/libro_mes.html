@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Libros del Mes</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="../css/libro_mes.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <header>
+    <p class="header-label">Selección Editorial &nbsp;·&nbsp; Mayo 2025</p>
+    <h1>Libros<br><em>del Mes</em></h1>
+    <div class="header-line"></div>
+    <p class="header-sub">Tres obras que no puedes dejar de leer</p>
+    <div class="scroll-hint">
+      <span>Explorar</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════ NAV ═══════════════════ -->
+  <nav class="sticky-nav">
+    <a href="#" class="nav-brand">Biblioteca Selecta</a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="#libro1">García Márquez</a></li>
+      <li><a href="#libro2">Vargas Llosa</a></li>
+      <li><a href="#libro3">Austen</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════ LIBRO 1 ═══════════════════ -->
+  <section id="libro1" class="book-section dark" data-num="01">
+
+    <div class="book-img-col reveal-left">
+      <div class="book-cover-wrap">
+        <img src="https://www.penguinlibros.com/co/3612936-large_default/cien-anos-de-soledad-edicion-ilustrada.webp"
+             alt="Cien Años de Soledad - Edición Ilustrada">
+      </div>
+    </div>
+
+    <div class="book-text-col">
+      <div class="book-meta reveal d1">
+        <span class="book-number">01 &nbsp;/&nbsp; 03</span>
+        <div class="book-divider"></div>
+      </div>
+      <h2 class="book-title reveal d2">Cien Años<br>de Soledad</h2>
+      <p class="book-author reveal d3">Gabriel García Márquez</p>
+
+      <p class="book-desc reveal d3">
+        La obra cumbre del realismo mágico latinoamericano. A través de siete generaciones de la familia Buendía en el mítico pueblo de Macondo, García Márquez teje una sinfonía de amor, guerra, locura y olvido que convirtió a Colombia —y a toda América Latina— en un mito universal.
+      </p>
+      <p class="book-desc reveal d3">
+        Publicada en 1967 y ganadora del Premio Nobel de Literatura, esta edición ilustrada rinde tributo a una de las novelas más vendidas en la historia del idioma español, con imágenes que materializan el universo irrepetible de Macondo.
+      </p>
+
+      <blockquote class="book-quote reveal d4">
+        "El secreto de una buena vejez no es otra cosa que un pacto honrado con la soledad."
+      </blockquote>
+
+      <div class="tags reveal d4">
+        <span class="tag">Realismo Mágico</span>
+        <span class="tag">Premio Nobel</span>
+        <span class="tag">Literatura Latinoamericana</span>
+        <span class="tag">Clásico</span>
+      </div>
+
+      <a href="#" class="btn-leer reveal d5">
+        <span>Leer más</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════ LIBRO 2 ═══════════════════ -->
+  <section id="libro2" class="book-section paper" data-num="02">
+
+    <div class="book-img-col reveal-right">
+      <div class="book-cover-wrap">
+        <img src="https://www.penguinlibros.com/co/2701960/la-ciudad-y-los-perros.jpg"
+             alt="La Ciudad y los Perros">
+      </div>
+    </div>
+
+    <div class="book-text-col">
+      <div class="book-meta reveal d1">
+        <span class="book-number" style="color:var(--rust);">02 &nbsp;/&nbsp; 03</span>
+        <div class="book-divider" style="background:linear-gradient(to right,var(--rust),transparent);"></div>
+      </div>
+      <h2 class="book-title reveal d2">La Ciudad<br>y los Perros</h2>
+      <p class="book-author reveal d3">Mario Vargas Llosa</p>
+
+      <p class="book-desc reveal d3">
+        Primera novela del Nobel peruano, y una de las más explosivas del boom latinoamericano. Ambientada en el Colegio Militar Leoncio Prado de Lima, la historia desnuda con brutalidad y precisión las jerarquías de poder, la violencia masculina y la pérdida de la inocencia en una sociedad que convierte a los jóvenes en "perros".
+      </p>
+      <p class="book-desc reveal d3">
+        Prohibida y quemada en el Perú a su publicación en 1963, fue al mismo tiempo finalista del Premio Biblioteca Breve y reconocida como una de las grandes novelas del siglo XX. Vargas Llosa construye aquí una estructura narrativa magistral que aún hoy fascina y perturba.
+      </p>
+
+      <blockquote class="book-quote reveal d4" style="border-color:var(--rust); color:var(--rust);">
+        "Ser hombre es saber que no se puede volver atrás, que la vida es sólo hacia adelante."
+      </blockquote>
+
+      <div class="tags reveal d4">
+        <span class="tag">Boom Latinoamericano</span>
+        <span class="tag">Premio Nobel</span>
+        <span class="tag">Literatura Peruana</span>
+        <span class="tag">Novela Social</span>
+      </div>
+
+      <a href="#" class="btn-leer reveal d5" style="color:var(--rust);border-color:var(--rust);">
+        <span>Leer más</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════ LIBRO 3 ═══════════════════ -->
+  <section id="libro3" class="book-section light" data-num="03">
+
+    <div class="book-img-col reveal-left">
+      <div class="book-cover-wrap">
+        <img src="https://www.penguinlibros.com/co/2492523/orgullo-y-prejuicio.jpg"
+             alt="Orgullo y Prejuicio">
+      </div>
+    </div>
+
+    <div class="book-text-col">
+      <div class="book-meta reveal d1">
+        <span class="book-number">03 &nbsp;/&nbsp; 03</span>
+        <div class="book-divider"></div>
+      </div>
+      <h2 class="book-title reveal d2">Orgullo<br>y Prejuicio</h2>
+      <p class="book-author reveal d3">Jane Austen</p>
+
+      <p class="book-desc reveal d3">
+        Publicada en 1813, la obra más célebre de Jane Austen es mucho más que una historia de amor: es una anatomía brillante de la sociedad inglesa de principios del siglo XIX, diseccionada con ironía afilada y una inteligencia que no ha envejecido un solo día. Elizabeth Bennet y Fitzwilliam Darcy siguen siendo uno de los grandes duos de la literatura universal.
+      </p>
+      <p class="book-desc reveal d3">
+        La novela explora cómo el orgullo ciega y el prejuicio distorsiona, y cómo sólo la honestidad —incluso la brutal— puede tender puentes entre dos seres que se reconocen iguales. Una lectura que atrapa desde la primera página y no suelta hasta la última.
+      </p>
+
+      <blockquote class="book-quote reveal d4">
+        "No es verdad universalmente reconocida que un hombre soltero y con fortuna necesite esposa — pero sí que pocas verdades han dado tanto juego."
+      </blockquote>
+
+      <div class="tags reveal d4">
+        <span class="tag">Romanticismo</span>
+        <span class="tag">Literatura Inglesa</span>
+        <span class="tag">Clásico</span>
+        <span class="tag">Ironía Social</span>
+      </div>
+
+      <a href="#" class="btn-leer reveal d5">
+        <span>Leer más</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer>
+    <div class="footer-brand">Biblioteca Selecta</div>
+    <p class="footer-sub">Selección Editorial &nbsp;·&nbsp; Mayo 2025</p>
+    <p>Tres obras. Tres mundos. Una sola pasión por la lectura.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="../js/libro_mes.js"></script>
+</body>
+</html>

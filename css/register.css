@@ -1,0 +1,88 @@
+/* CONTENEDOR GENERAL */
+section.container {
+    max-width: 900px;
+}
+
+/* TÍTULO */
+section h2 {
+    font-weight: bold;
+    color: #1e3c72;
+}
+
+/* FORMULARIO */
+#formRegistro {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* INPUTS */
+#formRegistro .form-control {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+/* EFECTO FOCUS */
+#formRegistro .form-control:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 8px rgba(42, 82, 152, 0.3);
+}
+
+/* BOTÓN */
+#formRegistro button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* HOVER BOTÓN */
+#formRegistro button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #formRegistro {
+        padding: 20px;
+    }
+}
+/* NAVBAR */
+.navbar {
+    padding: 12px 0;
+}
+
+/* LINKS */
+.navbar .nav-link {
+    color: #ddd;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+}
+
+/* LINK ACTIVO */
+.navbar .nav-link.active {
+    color: #fff;
+    border-bottom: 2px solid #2a5298;
+}
+
+/* BOTÓN */
+.navbar .btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+/* EFECTO SCROLL (opcional futuro) */
+.navbar.scrolled {
+    background-color: rgba(0,0,0,0.9) !important;
+    transition: 0.3s;
+}

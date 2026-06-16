@@ -1,0 +1,30 @@
+body {
+    background: #f5f7fb;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+/* Inputs */
+.login-box .form-control {
+    border-radius: 10px;
+    padding: 12px;
+}
+
+/* Botón */
+.login-box button {
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    border: none;
+}
+
+.login-box button:hover {
+    opacity: 0.9;
+}
