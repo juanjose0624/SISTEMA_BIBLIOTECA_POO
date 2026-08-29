@@ -1,0 +1,28 @@
+services:
+  db:
+    image: mariadb:10.4
+    container_name: biblioteca_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: biblioteca
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./CONFIG_DATABASE/SQL/biblioteca.sql:/docker-entrypoint-initdb.d/biblioteca.sql
+    ports:
+      - "3307:3306"
+
+  app:
+    build: .
+    container_name: biblioteca_app
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_USER: root
+      DB_PASS: rootpass
+      DB_NAME: biblioteca
+    ports:
+      - "8090:80"
+
+volumes:
+  db_data:
