@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['admin_id'])) {
+    header("Location: ../html/login_admin.html");
+    exit;
+}
+
+$nombre = $_SESSION['admin_nombre'];
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
